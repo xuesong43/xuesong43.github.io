@@ -4,9 +4,9 @@
   
     
     <entry>
-      <title>Docker 容器相互访问</title>
-      <link href="//post/docker-container-interview-with-each-other-z2vyl0m.html"/>
-      <url>//post/docker-container-interview-with-each-other-z2vyl0m.html</url>
+      <title></title>
+      <link href="/2024/08/07/docker-container-interview-with-each-other-z2vyl0m/"/>
+      <url>/2024/08/07/docker-container-interview-with-each-other-z2vyl0m/</url>
       
         <content type="html"><![CDATA[<h1 id="Docker-容器相互访问"><a href="#Docker-容器相互访问" class="headerlink" title="Docker 容器相互访问"></a>Docker 容器相互访问</h1><p>推荐使用bridge桥接网络</p><p>‍</p><h2 id="创建docker-bridge网络"><a href="#创建docker-bridge网络" class="headerlink" title="创建docker bridge网络"></a>创建docker bridge网络</h2><figure class="highlight docker"><table><tr><td class="code"><pre><span class="line">docker network create testnet</span><br></pre></td></tr></table></figure><h2 id="运行容器连接到docker-bridge网络"><a href="#运行容器连接到docker-bridge网络" class="headerlink" title="运行容器连接到docker bridge网络"></a>运行容器连接到docker bridge网络</h2><figure class="highlight docker"><table><tr><td class="code"><pre><span class="line">docker <span class="keyword">run</span><span class="language-bash"> -it --name &lt;容器名&gt; ---network &lt;bridge&gt; --network-alias &lt;网络别名&gt; &lt;镜像名&gt;</span></span><br></pre></td></tr></table></figure><h2 id="容器内访问测试"><a href="#容器内访问测试" class="headerlink" title="容器内访问测试"></a>容器内访问测试</h2><figure class="highlight docker"><table><tr><td class="code"><pre><span class="line">docker exec -it wm /bin/sh</span><br><span class="line"></span><br><span class="line">ping xxx</span><br></pre></td></tr></table></figure>]]></content>
       

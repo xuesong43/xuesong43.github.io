@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>win11激活</title>
+      <link href="//post/win11-activation-27am4f.html"/>
+      <url>//post/win11-activation-27am4f.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="win11激活"><a href="#win11激活" class="headerlink" title="win11激活"></a>win11激活</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">1.右键桌面→在终端中打开</span><br><span class="line"></span><br><span class="line">2.输入 irm massgrave.dev/get | iex，回车</span><br><span class="line"></span><br><span class="line">3.输入1，回车</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 系统 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Linux中查看资源使用</title>
       <link href="//post/view-resource-use-in-linux-3ixg.html"/>
       <url>//post/view-resource-use-in-linux-3ixg.html</url>
